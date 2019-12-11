@@ -110,7 +110,7 @@ class connection_view{
             </head>
             <div class="login-page">
                 <div class="form">
-                    <form class="login-form" action="../conrollers/connection_controller.php?function=connection" method="post">
+                    <form class="login-form" action="../controllers/connection_controller.php?function=connection" method="post">
                         <input type="text" placeholder="username" name="username"/>
                         <input type="password" placeholder="password" name="password"/>
                         <input type="submit"/>
